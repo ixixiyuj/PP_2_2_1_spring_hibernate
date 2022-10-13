@@ -1,9 +1,12 @@
 package hiber.model;
 
+import org.hibernate.annotations.Cascade;
+
 import javax.persistence.*;
 
 @Entity
 @Table(name = "users")
+
 public class User {
 
    @Id
